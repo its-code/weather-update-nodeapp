@@ -70,7 +70,6 @@ app.get('/weatherupdate',(req,res)=>{
     })
 })
 
-
 app.get('/help/*',(req,res)=>{
     res.render('404',{
         error : "Help Article not found!",
